@@ -1,0 +1,6 @@
+@mixin heroImages($bgImg) {
+    background-image: $img-shadow, url($bgImg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}

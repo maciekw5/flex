@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flex</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a31bed0062.js" crossorigin="anonymous"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+
+
+  <button class="burger-btn">
+    <div class="burger-btn__box">
+      <div class="burger-btn__bars"></div>
+    </div>
+  </button>
+
+
+  <nav class="nav">
+
+    <div class="nav__items">
+      <a href="#packages" class="nav__item">Packages</a>
+      <a href="#offer" class="nav__item">Offer</a>
+      <a href="#reviews" class="nav__item">Reviews</a>
+      <a href="#contact" class="nav__item">Contact</a>
+    </div>
+
+  </nav>
+
+  <header class="header">
+    <div class="white-block white-block-left"></div>
+
+    <i class="fa-brands fa-slack header__icon" data-aos="fade-up" data-aos-delay="200"></i>
+    <h1 class="header__title" data-aos="fade-up" data-aos-delay="400">Web Design 3.0</h1>
+    <p class="header__info" data-aos="fade-up" data-aos-delay="600">Trust is the key</p>
+    <a href="#packages" class="header__btn btn-special-animation" data-aos="fade-up" data-aos-delay="1000">See the offer</a>
+
+    <a href="#aboutus" class="header__arrow bounce-top"><i class="fa-solid fa-sort-down" data-aos="fade-up" data-aos-delay="1200"></i></a>
+
+  </header>
+
+  <main>
+
+
+
+    <!-- POZNAJ NAS -->
+
+    <section class="dreams section-padding section white-section" id="aboutus">
+
+
+      <h2 class="section-heading">About us</h2>
+
+      <div class="wrapper">
+
+        <div class="dreams__boxes">
+
+
+          <div class="dreams__box">
+            <div class="dreams__box-img"><img src="./img/onas-big.png" alt="" class="box__img"></div>
+            <div class="dreams__box-text">
+              <i class="fa-solid fa-trophy icon-right" data-aos="fade-left" data-aos-delay="400"></i>
+              
+              <h3 class="dreams__box-text-title">20 years of experience!</h3>
+              <p class="dreams__box-text-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sequi
+                iusto quod asperiores voluptatibus fugiat officia praesentium, aliquid nisi velit suscipit saepe magni
+                minus aut animi atque tenetur ducimus sed quaerat natus id dolor maiores. Porro, voluptatem? Eos, nam
+                sunt?</p>
+            </div>
+          </div>
+
+
+          <div class="dreams__box dreams__box-right">
+            <div class="dreams__box-img dreams__box-img--right"><img src="./img/onas2-big.png" class="box__img"></div>
+            <div class="dreams__box-text dreams__box-text--right">
+              <i class="fa-solid fa-trophy icon-left" data-aos="fade-right" data-aos-delay="600"></i>
+              <h3 class="dreams__box-text-title">Best reviews!</h3>
+              <p class="dreams__box-text-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ipsam
+                sed necessitatibus nemo consectetur recusandae maxime. Nostrum iure aut doloribus repellat vero modi
+                totam ratione? Inventore repudiandae est veritatis debitis, iste quia incidunt consequuntur ullam minus
+                quidem totam facere nulla.</p>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+
+    <!-- IMAGE SEKCJA -->
+
+    <section class="image section-padding section">
+
+
+      <div class="white-block white-block-right"></div>
+      <div class="white-block white-block-left"></div>
+
+      <h2 class="image__title">Web Design 3.0</h2>
+
+      <hr>
+      <p class="image__info">We build and create the best websites!</p>
+      <hr>
+    </section>
+
+
+
+
+
+    <!-- PAKIETY -->
+
+    <section class="packages section-padding section white-section" id="packages">
+
+      <h2 class="section-heading">Packages</h2>
+
+      <div class="wrapper">
+
+        <div class="packages__cards">
+
+          <div class="card" onclick="void(0)">
+            <div class="card__img card__img--one">
+              <h3 class="card__title">Wordpress</h3>
+              <p class="card__info"><i class="fa-solid fa-share"></i> Więcej informacji</p>
+            </div>
+            <div class="card__text">
+              <h3 class="card__text-title">Wordpress</h3>
+              <ul class="card__text-list">
+                <li class="card__text-list-item">Example <i class="fa-solid fa-check"></i></li>
+                <li class="card__text-list-item">Example <i class="fa-solid fa-check"></i></li>
+                <li class="card__text-list-item">Example <i class="fa-solid fa-check"></i></li>
+                <li class="card__text-list-item">Example <i class="fa-solid fa-xmark"></i></li>
+                <li class="card__text-list-item">Example <i class="fa-solid fa-xmark"></i></li>
+              </ul>
+              <button class="card__text-btn btn-special-animation">pay now</button>
+            </div>
+          </div>
+
+
+          <div class="card" onclick="void(0)">
+            <div class="card__img card__img--three">
+              <h3 class="card__title">new website</h3>
+              <p class="card__info"><i class="fa-solid fa-share"></i> Więcej informacji</p>
+            </div>
+            <div class="card__text">
+              <h3 class="card__text-title">New website</h3>
+              <ul class="card__text-list">
+                <li class="card__text-list-item">Example <i class="fa-solid fa-check"></i></li>
+                <li class="card__text-list-item">Example <i class="fa-solid fa-check"></i></li>
+                <li class="card__text-list-item">Example <i class="fa-solid fa-check"></i></li>
+                <li class="card__text-list-item">Example <i class="fa-solid fa-check"></i></li>
+                <li class="card__text-list-item">Example <i class="fa-solid fa-check"></i></li>
+              </ul>
+              <button class="card__text-btn btn-special-animation">pay now</button>
+            </div>
+          </div>
+
+
+          <div class="card" onclick="void(0)">
+            <div class="card__img card__img--two">
+              <h3 class="card__title">Bootstrap</h3>
+              <p class="card__info"><i class="fa-solid fa-share"></i> Więcej informacji</p>
+            </div>
+            <div class="card__text">
+              <h3 class="card__text-title">Bootstrap</h3>
+              <ul class="card__text-list">
+                <li class="card__text-list-item">Example <i class="fa-solid fa-check"></i></li>
+                <li class="card__text-list-item">Example <i class="fa-solid fa-check"></i></li>
+                <li class="card__text-list-item">Example <i class="fa-solid fa-check"></i></li>
+                <li class="card__text-list-item">Example <i class="fa-solid fa-xmark"></i></li>
+                <li class="card__text-list-item">Example <i class="fa-solid fa-check"></i></li>
+              </ul>
+              <button class="card__text-btn btn-special-animation">pay now</button>
+            </div>
+          </div>
+
+
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+
+
+
+    <!-- OFERTA -->
+
+    <section class="offer section-padding section" id="offer">
+
+      <div class="white-block white-block-left"></div>
+      <div class="white-block white-block-right"></div>
+
+      <h2 class="section-heading">Offer</h2>
+
+      <div class="wrapper">
+
+        <div class="offer__boxes">
+
+          <div class="offer__box">
+            <h3 class="offer__box-title">For companies</h3>
+            <div class="offer__box-img"><img class="offer__img" src="./img/oferta2.jpg" alt=""></div>
+            <p class="offer__box-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur accusamus suscipit sequi ipsam sint cupiditate cumque, quae similique illum rerum!</p>
+            <button class="offer__box-btn btn-special-animation">Get more info</button>
+          </div>
+
+
+          <div class="offer__box">
+            <h3 class="offer__box-title">Personal brand</h3>
+            <div class="offer__box-img"><img class="offer__img" src="./img/oferta3.png" alt=""></div>
+            <p class="offer__box-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur accusamus suscipit sequi ipsam sint cupiditate cumque, quae similique illum rerum!</p>
+            <button class="offer__box-btn btn-special-animation">Get more info</button>
+          </div>
+
+
+          <div class="offer__box">
+            <h3 class="offer__box-title">Online shop</h3>
+            <div class="offer__box-img"><img class="offer__img" src="./img/oferta1.png" alt=""></div>
+            <p class="offer__box-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur accusamus suscipit sequi ipsam sint cupiditate cumque, quae similique illum rerum!</p>
+            <button class="offer__box-btn btn-special-animation">Get more info</button>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+
+    <!-- OPINIE -->
+
+    <section class="reviews section-padding section white-section" id="reviews">
+
+      <div class="white-block white-block-left"></div>
+
+      <h2 class="section-heading">Reviews</h2>
+
+      <div class="wrapper">
+
+        <div class="reviews__boxes">
+
+          <div class="reviews__box">
+            <img src="./img/people-1.jpg" alt="Anna Nowak" class="reviews__box-img">
+            <div class="reviews__box-text">
+              <i class="fa-solid fa-comments"></i>
+              <p class="reviews__box-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quos consequatur eum aperiam dicta quaerat repellendus ipsa vitae nisi dolor.</p>
+              <strong>Anna Nowak</strong>
+            </div>
+          </div>
+
+
+          <div class="reviews__box">
+            <img src="./img/people-2.jpg" alt="Anna Nowak" class="reviews__box-img">
+            <div class="reviews__box-text">
+              <i class="fa-solid fa-comments"></i>
+              <p class="reviews__box-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quos consequatur eum aperiam dicta quaerat repellendus ipsa vitae nisi dolor.</p>
+              <strong>Mariusz Jeż</strong>
+            </div>
+          </div>
+
+
+          <div class="reviews__box">
+            <img src="./img/people-3.jpg" alt="Anna Nowak" class="reviews__box-img">
+            <div class="reviews__box-text">
+              <i class="fa-solid fa-comments"></i>
+              <p class="reviews__box-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quos consequatur eum aperiam dicta quaerat repellendus ipsa vitae nisi dolor.</p>
+              <strong>Rafał Pastusiak</strong>
+            </div>
+          </div>
+
+          <div class="reviews__box">
+            <img src="./img/people-4.jpg" alt="Anna Nowak" class="reviews__box-img">
+            <div class="reviews__box-text">
+              <i class="fa-solid fa-comments"></i>
+              <p class="reviews__box-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quos consequatur eum aperiam dicta quaerat repellendus ipsa vitae nisi dolor.</p>
+              <strong>Mateusz Domin</strong>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+
+
+    <!-- KONTAKT -->
+
+
+
+    <section class="contact section-padding section" id="contact">
+
+      <h2 class="section-heading">Contact</h2>
+
+      <div class="wrapper">
+
+        <form class="contact__form">
+          <label class="contact__form-label" for="name">First & last name:</label>
+          <input type="text" class="contact__form-input" id="name">
+
+          <label class="contact__form-label" for="email">E-mail:</label>
+          <input type="text" class="contact__form-input" id="email">
+
+          <label class="contact__form-label" for="phone">Phone number:</label>
+          <input type="text" class="contact__form-input" id="phone">
+
+          <label class="contact__form-label" for="case">Why are you writing to us?</label>
+          <select class="contact__form-select" name="" id="case">
+            <option selected>-- Choose --</option>
+            <option value="">For company</option>
+            <option value="">For personal brand</option>
+            <option value="">For online shop</option>
+          </select>
+
+          <label class="contact__form-label" for="msg">Message content:</label>
+          <textarea class="contact__form-textarea" id="msg"></textarea>
+          <button class="contact__btn btn-special-animation">Send</button>
+        </form>
+
+
+        <hr class="contact__hr">
+  
+        <div class="place">
+  
+          <div class="place-info">
+  
+            <p class="place-info-text"><i class="fa-solid fa-location-dot"></i> Ul. Paderewskiego 13A | 41-500 Chorzów</p>
+  
+            <p class="place-info-text"><i class="fa-solid fa-phone"></i> +48 000-111-222</p>
+  
+            <p class="place-info-text"><i class="fa-solid fa-envelope"></i> mail@mail.pl</p>
+  
+            <p class="place-info-text"><i class="fa-solid fa-clock"></i> Monday - Friday | 8.00 - 16.00</p>
+  
+          </div>
+  
+          <div class="place-social">
+  
+            <div class="place-social-box">
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <p class="place-social-box-info">Instagram</p>
+            </div>
+  
+            <div class="place-social-box">
+             <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <p class="place-social-box-info">Facebook</p>
+            </div>
+  
+            <div class="place-social-box">
+              <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+              <p class="place-social-box-info">Twitter</p>
+            </div>
+  
+          </div>
+  
+        </div>
+      </div>
+
+
+    </section>
+
+
+
+  </main>
+
+
+  <!-- STOPKA -->
+
+  <footer class="footer">
+    <p class="footer__text">&copy; <span class="footer__year"></span> Web Design 3.0</p>
+  </footer>
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="./js/script.js"></script>
+  <script src="./js/slick.js"></script>
+</body>
+
+</html>
